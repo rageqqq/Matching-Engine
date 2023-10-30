@@ -1,0 +1,7 @@
+g++ -std=c++11 .\client.cpp -lws2_32 -o client //for client
+g++ -std=c++11 .\server.cpp -lws2_32 -o server //for server
+server.exe //to run server executable
+client.exe localhost //to run client executable on same machine
+g++ -std=c++11 .\test.cpp -o test //for testing order, stock_orders and parser.cpp
+test.exe //to run test executable
+
